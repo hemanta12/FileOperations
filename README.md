@@ -17,8 +17,8 @@ FileOperations/
 ├── students.txt            # Text file where student records are stored
 ```
 
-##License
+## License
 This project is open source and available under the MIT License.
 
-##Author
+## Author
 Hemanta Thapa
