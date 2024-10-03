@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 public class Main{
     public static void main(String []args){
         StudentRecordManager manager = new StudentRecordManager();
@@ -16,10 +16,10 @@ public class Main{
 
             switch(choice){
                 case 1:
-                    manager.addStudent();
+                    manager.addStudents();
                     break;
                 case 2:
-                    manager.viewStudent();
+                    manager.viewStudents();
                     break;
                 case 3:
                     manager.updateStudents();
@@ -28,10 +28,10 @@ public class Main{
                     manager.deleteStudents();
                     break;
                 case 5:
-                    System.out.println("Exiting the program...")
+                    System.out.println("Exiting the program...");
                    System.exit(0);
                 default:
-                    System.out.println("Invalid option, please try again.")
+                    System.out.println("Invalid option, please try again.");
             }
         }
     }
