@@ -5,11 +5,16 @@ public class Main{
         Scanner scanner = new Scanner(System.in);
 
         while (true){
+            System.out.println("*************************");
+            System.out.println("Menu:");
+            System.out.println("\t\t\t\t\t");
             System.out.println("1. Add Student");
             System.out.println("2. View Students");
             System.out.println("3. Update Student");
             System.out.println("4. Delete Student");
             System.out.println("5. Exit");
+            System.out.println("*************************");
+
 
             int choice = scanner.nextInt();
             scanner.nextLine();
